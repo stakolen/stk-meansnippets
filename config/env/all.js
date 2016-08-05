@@ -15,6 +15,8 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+				'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css',
+				'public/lib/highlightjs/styles/monokai.css'
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -25,7 +27,10 @@ module.exports = {
 				'public/lib/angular-sanitize/angular-sanitize.js', 
 				'public/lib/angular-ui-router/release/angular-ui-router.js',
 				'public/lib/angular-ui-utils/ui-utils.js',
-				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js'
+				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+				// AGGIUNGO LE LIBRERIE CHE NON TROVO NEI FILE INSTALLATI DAL GENERATORE
+				'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js',
+				'http://pc035860.github.io/angular-highlightjs/angular-highlightjs.min.js'
 			]
 		},
 		css: [
