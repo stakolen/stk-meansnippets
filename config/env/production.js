@@ -22,7 +22,7 @@ module.exports = {
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.min.js',
 				// AGGIUNGO LE LIBRERIE CHE NON TROVO NEI FILE INSTALLATI DAL GENERATORE
 				'//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js',
-				'http://pc035860.github.io/angular-highlightjs/angular-highlightjs.min.js'
+				'https://pc035860.github.io/angular-highlightjs/angular-highlightjs.min.js'
 			]
 		},
 		css: 'public/dist/application.min.css',
